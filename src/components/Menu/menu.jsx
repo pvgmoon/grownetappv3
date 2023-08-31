@@ -10,12 +10,11 @@ export default function Menu() {
         <Navbar>
         <Container className='menu'>
         <Nav className="me-auto">
-            <Nav.Link className="icons">
-                <Link to="/settings">
+            <Nav.Link className="icons" href='/settings'>
                     <Icon  icon="carbon:settings"> </Icon>
                     <Icon className="icon-active" icon="iconamoon:settings-fill"/>
                     <p>Settings</p>
-                 </Link>
+               
             </Nav.Link>
             <Nav.Link className="icons" href="/suppliers">
                     <Icon className="" icon="streamline:shopping-cart-basket-2-shopping-basket"/>

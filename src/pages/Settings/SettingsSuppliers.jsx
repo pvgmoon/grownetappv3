@@ -1,9 +1,10 @@
 import React from "react";
 import {Icon} from '@iconify/react';
-import css from '../../css/settingsSuppliers.css'
+import css from '../../css/settingsSuppliers.css';
+import Menu from "../../components/Menu/Menu.jsx"
 
 export default function SettingsSuppliers() {
-  return (
+  return (<>
     <section className="settings-suppliers">
     <h1>Add suppliers</h1>
     <button className="bttn" id="supplier-card">
@@ -46,9 +47,8 @@ export default function SettingsSuppliers() {
       <img src="https://placehold.co/300" alt="logo-supplier"/>
       <Icon icon="simple-line-icons:plus"className="plus"/>
     </button>
-
-
-      
     </section>
+    <Menu/>
+    </>
   );
 }
