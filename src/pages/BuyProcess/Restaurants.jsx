@@ -3,6 +3,7 @@ import css from "../../css/restaurants.css";
 import axios from "axios";
 import { Icon } from "@iconify/react";
 
+
 export default function Restaurants() {
   const urlImg = "http://5.161.211.8:88/storage/";
   const endpoint = "http://5.161.211.8:88/api/users/all";
@@ -22,7 +23,35 @@ export default function Restaurants() {
   return (
     <section className="restaurants">
       <h1 className="tittle-restaurants">Choose your restaurant</h1>
-      {users.map((user) => (
+      <a className="bttn-categ" href="/suppliers">
+      <div className="text-categ">
+            <h2>
+              Foodpoint
+            </h2>
+            <p>Address restaurant</p>
+          </div>
+          <img src="https://icon-library.com/images/food-icon-white/food-icon-white-17.jpg"/>
+      </a>
+      <a className="bttn-categ" href="/suppliers">
+      <div className="text-categ">
+            <h2>
+              Foodpoint
+            </h2>
+            <p>Address restaurant</p>
+          </div>
+          <img src="https://icon-library.com/images/food-icon-white/food-icon-white-17.jpg"/>
+      </a>
+      <a className="bttn-categ" href="/suppliers">
+      <div className="text-categ">
+            <h2>
+              Foodpoint
+            </h2>
+            <p>Address restaurant</p>
+          </div>
+          <img src="https://icon-library.com/images/food-icon-white/food-icon-white-17.jpg"/>
+      </a>
+
+      {/*users.map((user) => (
         <a className="bttn-categ" href="/suppliers">
           <div className="text-categ" key={user.email}>
             <h2>
@@ -32,7 +61,7 @@ export default function Restaurants() {
           </div>
           <img src={urlImg + user.avatar} />
         </a>
-      ))}
+      ))*/}
       <a className="bttn btn-primary" href="addRestaurants"id="bttn-restaurant">
         <Icon className="icon-plus" icon="simple-line-icons:plus" />
         Add restaurant

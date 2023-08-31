@@ -22,14 +22,21 @@ export default function Suppliers(props) {
             </ul>
             </div>*/
            }
+           <a className="bttn-categ" id='suppliers-categ' href='/products'>
+            
+             <h2 className='text-supplier'>
+                Foodpoint
+            </h2>
+                <img src={img_suppliers} alt="logo-restaurant" className='img-suppliers'></img>
+            </a>
            
-            <a className="bttn-categ" id='suppliers-categ' href='/products'>
+            {/*<a className="bttn-categ" id='suppliers-categ' href='/products'>
             {suppliers.filter(sup => sup.id === props.prove).map(filteredPerson => (
              <h2 className='text-supplier'>
             {filteredPerson.name}
             </h2>))}
                 <img src={img_suppliers} alt="logo-restaurant" className='img-suppliers'></img>
-            </a>
+            </a>*/}
            
 
  </section>

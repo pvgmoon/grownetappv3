@@ -32,6 +32,8 @@
 }
 .restaurants img{
     margin-left: 1rem;
+    width: 55%;
+    padding: 15px;
 }
 @media screen and (max-width: 345px) {
     .bttn-categ{
