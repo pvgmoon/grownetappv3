@@ -28,7 +28,7 @@ export default function SettingsRestaurants() {
                     <p>Admin test</p>
                 </div>
             </div>
-            <button className='bttn btn-primary'>Edit Restaurant</button>
+            <button className='bttn btn-primary' id='espacio'>Edit Restaurant</button>
             <Menu/>
         </section> 
     );

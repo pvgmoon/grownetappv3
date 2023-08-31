@@ -30,7 +30,7 @@ export default function Restaurants() {
             </h2>
             <p>Address restaurant</p>
           </div>
-          <img src="https://icon-library.com/images/food-icon-white/food-icon-white-17.jpg"/>
+          <img src="https://static.vecteezy.com/system/resources/previews/024/558/690/original/3d-avatar-chef-man-illustration-png.png"/>
       </a>
       <a className="bttn-categ" href="/suppliers">
       <div className="text-categ">
@@ -39,7 +39,7 @@ export default function Restaurants() {
             </h2>
             <p>Address restaurant</p>
           </div>
-          <img src="https://icon-library.com/images/food-icon-white/food-icon-white-17.jpg"/>
+          <img src="https://static.vecteezy.com/system/resources/previews/024/558/690/original/3d-avatar-chef-man-illustration-png.png"/>
       </a>
       <a className="bttn-categ" href="/suppliers">
       <div className="text-categ">
@@ -48,7 +48,7 @@ export default function Restaurants() {
             </h2>
             <p>Address restaurant</p>
           </div>
-          <img src="https://icon-library.com/images/food-icon-white/food-icon-white-17.jpg"/>
+          <img src="https://static.vecteezy.com/system/resources/previews/024/558/690/original/3d-avatar-chef-man-illustration-png.png"/>
       </a>
 
       {/*users.map((user) => (
