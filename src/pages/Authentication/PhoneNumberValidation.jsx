@@ -100,9 +100,9 @@ function PhoneNumberValidation() {
               </label>
               {!valid && <p></p>}
               <Col>
-                <button className="bttn btn-secundary mt-4" type="submit">
+                <a id="letsbegin" href="/restaurants"className="bttn btn-secundary mt-4" type="submit">
                   Let’s Begin
-                </button>
+                </a>
               </Col>
             </form>
           </p>
