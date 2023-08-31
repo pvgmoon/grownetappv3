@@ -26,7 +26,7 @@ export default function Restaurants() {
       <a className="bttn-categ" href="/suppliers">
       <div className="text-categ">
             <h2>
-              Foodpoint
+              Restaurant
             </h2>
             <p>Address restaurant</p>
           </div>
@@ -35,7 +35,7 @@ export default function Restaurants() {
       <a className="bttn-categ" href="/suppliers">
       <div className="text-categ">
             <h2>
-              Foodpoint
+              Restaurant
             </h2>
             <p>Address restaurant</p>
           </div>
@@ -44,7 +44,7 @@ export default function Restaurants() {
       <a className="bttn-categ" href="/suppliers">
       <div className="text-categ">
             <h2>
-              Foodpoint
+              Restaurant
             </h2>
             <p>Address restaurant</p>
           </div>
