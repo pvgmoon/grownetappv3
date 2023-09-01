@@ -19,14 +19,14 @@ export default function ProductCard({ id, name, image}) {
       addFavorite(id);
     }
   };
-
+  let price = 10*counter;
   return (
     <section className="products">
       <div className="elements">
-        <img src={image} />
+        <img src={image} alt="imagen logo" />
         <div>
           <div className="titlle-products">
-            <h1 key={id}>{name}</h1>
+            <h1>{name}</h1>
             <div className="pr">
               <Icon
                 className="icono"
@@ -38,7 +38,7 @@ export default function ProductCard({ id, name, image}) {
               ></Icon>
             </div>
           </div>
-          <p>GBP £12</p>
+          <p>GBP £{price}</p>
           <div className="product-amount">
             <Stepper counter={counter} setCounter={setCounter} />
             <Form.Select
@@ -54,7 +54,7 @@ export default function ProductCard({ id, name, image}) {
       </div>
       <div className="promo">
         <h4>Promo price</h4>
-        <h5>$20.9 Bag</h5>
+        <h5>£20.9 Bag</h5>
         <Form.Check aria-label="option 1" />
       </div>
     </section>
