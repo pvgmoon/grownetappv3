@@ -5,10 +5,10 @@ import Stepper from "../components/Stepper/Stepper";
 import "../css/products.css";
 import { useFavoritesStore } from "../store/favoritesStore";
 
-export default function ProductCard({ id }) {
+export default function ProductCard({ id, name, image}) {
   const [counter, setCounter] = useState(0);
   const { favorites, addFavorite, removeFavorite } = useFavoritesStore();
-  const isFavorite = favorites.includes(id);
+  const isFavorite = favorites.includes(id, name, image);
 
   const handleToggleFavorite = () => {
     if (isFavorite) {
@@ -23,10 +23,10 @@ export default function ProductCard({ id }) {
   return (
     <section className="products">
       <div className="elements">
-        <img src="https://images.heb.com/is/image/HEBGrocery/002599549-1" />
+        <img src={image} />
         <div>
           <div className="titlle-products">
-            <h1>Avocado</h1>
+            <h1 key={id}>{name}</h1>
             <div className="pr">
               <Icon
                 className="icono"
@@ -38,7 +38,7 @@ export default function ProductCard({ id }) {
               ></Icon>
             </div>
           </div>
-          <p>GBP $12</p>
+          <p>GBP £12</p>
           <div className="product-amount">
             <Stepper counter={counter} setCounter={setCounter} />
             <Form.Select

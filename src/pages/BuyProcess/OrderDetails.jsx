@@ -41,7 +41,7 @@ export default function OrderDetails(props) {
           <div className="product-detail">
             <h3>Broccoli</h3>
             <div className="product-detail">
-              <h3>€{totalItemToPay}</h3>
+              <h3>£{totalItemToPay}</h3>
               <Icon id="trash" icon="ph:trash"/>
             </div>
           </div>
@@ -53,13 +53,13 @@ export default function OrderDetails(props) {
         <div>
           <h2 id="tax-font">Payment details</h2>
           <div className="product-detail">
-            <h3>Tax</h3>
-            <h3>€{tax}</h3>
+            <h3>VAT</h3>
+            <h3>£{tax}</h3>
           </div>
         </div>
         <div className="total-detail">
           <h2>Current value</h2>
-          <h2>€{totalToPay} </h2>
+          <h2>£{totalToPay} </h2>
         </div>
       </div>
       <a className="bttn btn-primary" href="/orderInformation">Continue</a>

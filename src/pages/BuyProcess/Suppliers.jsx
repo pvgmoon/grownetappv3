@@ -19,9 +19,6 @@ export default function Suppliers(props) {
         <h1 className="tittle-restaurants">Suppliers</h1>
       </div>
       <CardSuppliers prove={1}></CardSuppliers>
-      <CardSuppliers prove={2}></CardSuppliers>
-      <CardSuppliers prove={3}></CardSuppliers>
-      <CardSuppliers prove={4}></CardSuppliers>
       <a className="bttn btn-primary" href="settingsSuppliers"id="bttn-restaurant">
         <Icon className="icon-plus" icon="simple-line-icons:plus" />
         Add suppliers
